@@ -1,0 +1,56 @@
+CREATE DATABASE test1;
+
+--
+-- table create
+--
+
+CREATE TABLE `brands` (
+  `id` int(11) NOT NULL,
+  `brandName` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Table `brands` values
+--
+
+INSERT INTO `brands` (`id`, `brandName`) VALUES
+(1, 'Alfa Romeo'),
+(2, 'Anadol'),
+(3, 'Aston Martin'),
+(4, 'Audi'),
+(5, 'Bentley'),
+(6, 'BMW'),
+(7, 'Bugatti'),
+(8, 'Buick'),
+(9, 'Cadillac'),
+(10, 'Chery'),
+(11, 'Chevrolet'),
+(12, 'Chrysler'),
+(13, 'Citroen'),
+(14, 'Dacia'),
+(15, 'Daewoo'),
+(16, 'Dodge'),
+(17, 'Daihatsu'),
+(18, 'Eagle'),
+(19, 'Ferrari'),
+(20, 'Fiat'),
+(21, 'Ford'),
+(22, 'Honda'),
+(23, 'Geely'),
+(24, 'Infiniti'),
+(25, 'Hyundai'),
+(26, 'Hennessey'),
+(27, 'Kia'),
+(28, 'Ikco'),
+(29, 'Jaguar'),
+(30, 'Lada'),
+(31, 'Lancia'),
+(32, 'Lexus'),
+(33, 'Lamborghini'),
+(34, 'Lotus'),
+(35, 'Maserati'),
+(36, 'Lincoln'),
+(37, 'Mazda'),
+(38, 'Mclaren'),
+(39, 'Maybach'),
+(40, 'MG');
